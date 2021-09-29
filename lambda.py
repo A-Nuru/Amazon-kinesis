@@ -7,6 +7,11 @@ import datetime
 # define a lambda_handler function
 def lambda_handler(event, context):
     
+    """
+    Function receives a batch of events from Kinesis and insert the events into  DynamoDB table
+    Input - event, context
+    
+    """
     
     try:
         #resource accessed from boto library
